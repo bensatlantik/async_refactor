@@ -1,4 +1,4 @@
-use syn::{ItemFn, Stmt};
+use syn::{ItemFn};
 
 pub fn extract_async_function(content: &str, function_name: &str) -> String {
     // Simplified example of extracting an async function from the content
