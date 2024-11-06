@@ -1,6 +1,13 @@
 [package]
 name = "async_refactor"
 version = "0.1.0"
-edition = "2021"
+edition = "2018"
+authors = ["Ben Santora <bensatlantik@gmail.com>"]
+description = "A library for automated async code refactoring in Rust."
+license = "MIT"
 
 [dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
+
+[dev-dependencies]
